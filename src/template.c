@@ -35,7 +35,7 @@ int main(void) {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    window = glfwCreateWindow(800, 800, "Cube", NULL, NULL);
+    window = glfwCreateWindow(800, 800, "Template", NULL, NULL);
 
     if (!window)
     {
